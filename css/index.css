@@ -1,0 +1,31 @@
+.main {
+  background-color: rgba(135, 95, 214, 0.76);
+}
+
+.item {
+  width: 200px;
+  /* height: fit-content; */
+  margin: 10px;
+}
+
+#item1 {
+  background-color: rgb(12%, 34%, 67%);
+}
+
+#item2 {
+  background-color: #8e2;
+}
+
+#item3 {
+  background-color: hsla(12, 45%, 45%, 0.95);
+}
+
+.container {
+  margin: 10px;
+  height: 200px;
+  border: steelblue 2px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+   align-items: center; 
+}
